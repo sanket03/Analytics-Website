@@ -1,0 +1,23 @@
+@import 'home';
+@import 'categories';
+@import 'pages';
+@import 'contact';
+@import 'footer';
+@import 'casestudy';
+
+body, #app, #app-container {
+    font-family: Roboto !important;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #F8F8F8;
+}
+
+button {
+    background-color: #203DBD;
+    color: white;
+    font-size: 15px !important;
+    width: 148px;
+    cursor: pointer;
+    font-family: Roboto !important;
+}
